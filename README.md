@@ -1,5 +1,7 @@
 # 2020/05/28 ［Android］Shared Element Transition を試してみる
 
+https://medium.com/kaleidot725/android-shared-element-transition-%E3%82%92%E8%A9%A6%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B-4a4dfe9b30a0
+
 # はじめに
 Shared Element Transition を利用すると Fragment 間で共有する View を指定することができ、次のように画面間でシームレスに View が移動したり拡大したりするようなアニメーションを実装できるらしい。Activity、Fragment どちらの画面遷移でも Shared Element Transition を利用できるらしいのだが、Single Activity で実装されることが最近は多いと思うので、Fragment を利用した画面遷移で Shared Element Transition を実装していこうかなと思います。
 
